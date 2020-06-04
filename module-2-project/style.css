@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  font-family: Times New Roman Times serif;
+  background-color: #FFF8DC;
+}
+
+h1 {
+	font-size: 175%;
+	text-align: center;
+	color: black;
+	margin-bottom: 30px;
+	text-decoration: underline;
+}
+
+p {
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-top: 25px;
+	font-size: 16px;
+	position: relative;
+	background-color: #C0C0C0;
+}
+
+.section { 
+	background-color: #C0C0C0;
+   	border: 2px solid black;
+   	margin-top: 20px; 
+   	margin-right: 20px; 
+   	padding: 3px;
+   	text-align: justify;
+   	position: relative;
+ }
+
+span {
+	font-size: 125%;
+	width: 150px;
+	border: 2px solid black;
+	font-weight: bold;
+	text-align: center;
+	float: right; top :0; right: 0; margin: 0;
+	position: absolute;
+}
+#nr1 {
+	background-color: #FF0000;
+	color:black ;
+}
+#nr2 {
+	background-color: #FFD700;
+	color: black;
+}
+#nr3 {
+	background-color: #00FF00;
+	color: black;
+}
+
+}
+
+.row {
+	width: 100%;
+}
+
+/* Desktop PC view */
+
+@media (min-width: 992px) {
+ 
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+	}
+}
+
+/* Tablet PC view */
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+/* Cell phone view */
+@media (max-width: 767px)  {
+  
+  .col-sm-12 {
+  	float: left;
+    width: 100%;
+  }
+}
