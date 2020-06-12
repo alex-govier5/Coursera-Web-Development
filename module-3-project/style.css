@@ -53,6 +53,7 @@ h3 {
   padding: 10px;
   border: 1px solid black;
   margin-right: 5%;
+  cursor: pointer;
 
 }
 
@@ -68,9 +69,9 @@ h3 {
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: relative;
   background-color: #f1f1f1;
-  min-width: 160px;
+ width: 80px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
